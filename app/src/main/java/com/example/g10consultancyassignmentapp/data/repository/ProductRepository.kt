@@ -29,6 +29,9 @@ class ProductRepository @Inject constructor(
                     response.body()?.let {
                         _productLiveData.postValue(Response.Success(it.products))
                     }
+                } else {
+                    _productLiveData.postValue(Response.Error("Invalid URL Link"))
+                    Log.e("MyTag", "Invalid URl Link")
                 }
             } else {
                 _productLiveData.postValue(Response.Error("Network Error"))
