@@ -36,7 +36,7 @@ class ProductRepository @Inject constructor(
             } else {
                 _productLiveData.postValue(Response.Error("Network Error"))
             }
-        } catch (e : Exception) {
+        } catch (e: Exception) {
             Log.e("MyTag", e.printStackTrace().toString())
             _productLiveData.postValue(Response.Error("Some Error occurred"))
         }

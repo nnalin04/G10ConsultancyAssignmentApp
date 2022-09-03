@@ -3,8 +3,12 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="app/src/main/res/drawable-v24/tab_indicator_default.xml" value="0.1095" />
+        <entry key="app/src/main/res/drawable-v24/tab_indicator_selected.xml" value="0.1" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.23802083333333332" />
+        <entry key="app/src/main/res/layout/fragment_product_detail.xml" value="0.22395833333333334" />
         <entry key="app/src/main/res/layout/fragment_product_list.xml" value="0.23802083333333332" />
+        <entry key="app/src/main/res/layout/image_view.xml" value="0.19610507246376813" />
         <entry key="app/src/main/res/layout/product_view.xml" value="0.23541666666666666" />
       </map>
     </option>
